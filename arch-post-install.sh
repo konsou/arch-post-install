@@ -52,3 +52,76 @@ source PKGBUILD && pacman -S --noconfirm --needed --asdeps "${makedepends[@]}" "
 as_user makepkg --noconfirm
 pacman -U --noconfirm ./yay-*-x86_64.pkg.tar.zst
 box "yay install complete"
+
+box "Install extra packages"
+yay -S --needed --noconfirm \
+  arch-install-scripts \
+  bitwarden \
+  brave-bin \
+  brother-mfc-j5620dw \
+  brscan-skey \
+  brscan4 \
+  cronie \
+  cuda \
+  cups \
+  cups-browsed \
+  cups-pdf \
+  cups-pl-helper \
+  discord \
+  dkms \
+  docker \
+  docker-compose \
+  dolphin-plugins \
+  dosfstools \
+  dysk \
+  exfat-utils \
+  fastfetch \
+  firefox \
+  fish \
+  flatpak \
+  fuse2 \
+  ghostscript \
+  ghostty \
+  grub-customizer \
+  gsfonts \
+  gutenprint \
+  imagemagick \
+  informant \
+  inkscape \
+  iotop \
+  jnettop \
+  jq \
+  libreoffice-fresh \
+  man-db \
+  moreutils \
+  nano \
+  ncdu \
+  net-tools \
+  noto-fonts-cjk \
+  nvm \
+  partitionmanager \
+  protontricks \
+  qbittorent \
+  rclone \
+  rsync \
+  samba \
+  signal-desktop \
+  smartmontools \
+  snapper \
+  snapd \
+  steam \
+  system-config-printer \
+  tldr \
+  tpm2-tools \
+  ttf-bitstream-vera \
+  ttf-dejavu \
+  unrar \
+  vlc \
+  wine \
+  wine-mono \
+  winetricks \
+  yaml-language-server \
+  zfs-dkms \
+  zfs-auto-snapshot \
+  zoxide
+box "Extra packages install complete"
