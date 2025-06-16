@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Run:
-# curl -s https://gist.githubusercontent.com/konsou/1f1d80e1536538124297278707aed89e/raw/arch_post_install.sh | sudo bash
+# curl -s https://raw.githubusercontent.com/konsou/arch-post-install/refs/heads/main/arch-post-install.sh | sudo bash
 
 # exit on error
 set -e
